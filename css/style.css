@@ -574,6 +574,10 @@ figure {
   font-weight: 400;
 }
 
+#fh5co-services-section div:nth-child(2) div div div p{
+	text-align: left;
+}
+
 #fh5co-services, #fh5co-about, #fh5co-contact {
   padding: 7em 0;
 }
