@@ -800,6 +800,11 @@ figure {
   color: white !important;
 }
 
+#fh5co-blog-section div div div{
+	background-color: #fafafa;border-left: solid 2px black;
+	margin-top: 8px;
+}
+
 #map {
   width: 100%;
   height: 500px;
