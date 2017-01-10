@@ -802,7 +802,28 @@ figure {
 
 #fh5co-blog-section div div div{
 	background-color: #fafafa;border-left: solid 2px black;
+
 	margin-top: 8px;
+	animation: movetimeline 1.0s linear 1;
+}
+#fh5co-blog-section div div div:nth-child(1){
+	animation-delay: 0s;
+}
+#fh5co-blog-section div div div:nth-child(2){
+	animation-delay: 0.2s;
+}
+#fh5co-blog-section div div div:nth-child(3){
+	animation-delay: 0.4s;
+}
+#fh5co-blog-section div div div:nth-child(4){
+	animation-delay: 0.6s;
+}
+#fh5co-blog-section div div div:nth-child(5){
+	animation-delay: 0.8s;
+}
+@keyframes movetimeline{
+	0%{transform: rotateY(180deg);}
+	100%{transform: rotateY(0deg);}
 }
 
 #map {
