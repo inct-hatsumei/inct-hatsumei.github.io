@@ -830,9 +830,41 @@ figure {
 	font-size: 32px;
 	color: #000;
 }
+.timeline-circle{
+	list-style-type: none;
+	font-size: 24px;
+}
+.timeline-circle:before{
+	content: '';
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 100%;
+	background: #36B4A5;
+	position: relative;
+	left: -10px;
+	top: -3px;
+	font-size: 24px;
+}
 @media screen and (max-width: 768px) {
 	.timeline-title{
 		font-size: 24px;
+	}
+	.timeline-circle{
+		list-style-type: none;
+		font-size: 18px;
+	}
+	.timeline-circle:before{
+		content: '';
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		border-radius: 100%;
+		background: #36B4A5;
+		position: relative;
+		left: -10px;
+		top: -3px;
+		font-size: 18px;
 	}
 }
 #map {
