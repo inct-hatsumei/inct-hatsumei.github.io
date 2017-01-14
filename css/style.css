@@ -634,6 +634,24 @@ figure {
   }
 }
 
+#papercraft-title{
+}
+#papercraft-image{
+	width: 100%;
+	height: auto;
+}
+#tetris-title{
+}
+#tetris-image{
+	width: 100%;
+	height: auto;
+}
+#androidapp-title{
+}
+#androidapp-image{
+	width: 100%;
+	height: auto;
+}
 #fh5co-contact .contact-info {
   margin: 0;
   padding: 0;
