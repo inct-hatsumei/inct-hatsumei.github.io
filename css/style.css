@@ -635,18 +635,42 @@ figure {
 }
 
 #papercraft-title{
+	font-size: 32px;
+	color: #000;
+}
+@media screen and (max-width: 768px) {
+	#papercraft-title{
+		font-size: 24px;
+		color: #000;
+	}
 }
 #papercraft-image{
 	width: 100%;
 	height: auto;
 }
 #tetris-title{
+	font-size: 32px;
+	color: #000;
+}
+@media screen and (max-width: 768px) {
+	#tetris-title{
+		font-size: 24px;
+		color: #000;
+	}
 }
 #tetris-image{
 	width: 100%;
 	height: auto;
 }
 #androidapp-title{
+	font-size: 32px;
+	color: #000;
+}
+@media screen and (max-width: 768px) {
+	#androidapp-title{
+		font-size: 24px;
+		color: #000;
+	}
 }
 #androidapp-image{
 	width: 100%;
